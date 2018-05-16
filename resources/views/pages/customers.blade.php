@@ -8,7 +8,7 @@
 
         <div class="content-wrapper">
             <a class="btn btn-dark btn-sm float-right mb-3" data-fancybox data-type="iframe" data-src="{{ route('customers.create') }}" href="javascript:;">Müşteri Ekle</a>
-            <div>
+            <div class="table-responsive">
                 <table id="customersTable" class="table table-bordered table-striped">
                     <thead>
                         <tr>
