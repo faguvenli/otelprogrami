@@ -1,0 +1,65 @@
+html, body {
+	font-family:"Open Sans";
+	font-size:13px;
+}
+
+.ekle_btn, .cikar_btn, .paketekle_btn, .paketcikar_btn {
+	padding-top:3px;
+	font-size:20px;
+	cursor: pointer;
+}
+
+.ekle_btn, .paketekle_btn {
+	color:#1abc9c;
+}
+
+.cikar_btn, .paketcikar_btn {
+	color:#CC0000;
+}
+
+table tbody tr {
+	cursor: pointer;
+}
+
+.mainRow:hover {
+	background-color:#d4edda !important;
+}
+
+table.dataTable {
+	border-collapse: collapse !important;
+}
+
+.dataTables_wrapper.container-fluid {
+	padding-right:0;
+	padding-left:0;
+}
+
+form section {
+	border: 1px solid #DDDDDD;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+form span.input-group-text {
+	height:38px;
+	border:none;
+}
+
+td.details-control {
+	background: url(../images/details_open.png) no-repeat center center;
+}
+
+tr.shown {
+	background-color:#d4edda !important;
+}
+tr.shown td.details-control {
+	background: url(../images/details_close.png) no-repeat center center;
+}
+
+tr.shown + tr {
+	background-color:#a9b9b6 !important;
+}
+
+tr.shown + tr > td {
+	padding:14px;
+}
